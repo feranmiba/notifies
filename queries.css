@@ -1,0 +1,39 @@
+/* big tablet to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px) {
+}
+
+/*small tablet to big tablet:from 768px to1023px*/
+@media only screen and (max-width: 1023px) {
+}
+
+/*small phones to small tablets: from 481 to767px*/
+@media only screen and (max-width: 767px) {
+  .mains {
+    display: none;
+  }
+}
+
+/*small phones to small tablets: from 0  to 480px*/
+@media only screen and (max-width: 480px) {
+  .everything {
+    width: 350px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: -4%;
+  }
+  .first {
+    width: 320px;
+    padding-left: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 3px;
+  }
+  .private {
+    width: 270px;
+    margin-left: 3%;
+  }
+  .beat {
+    margin-left: 15%;
+    margin-top: -12%;
+  }
+}
